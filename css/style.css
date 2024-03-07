@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #2e96d7;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color:white
+}
+form{
+    background:white;
+    max-width: 480px;
+    width: 100%;
+    margin:20px auto;
+    padding:12px;
+    font-size: 12px;
+}
+
+form label{
+    margin-bottom: 6px;
+    margin-top:12px
+}
+.width-100{
+    width: 100%;
+    padding:6px;
+    margin-bottom: 20px;
+}
+textarea{
+    resize: none;
+    height: 100px;
+}
+.block{
+    display: block;
+}
+.btn{
+    border:0;
+    color:white;
+    background-color: #2e96d7;
+}

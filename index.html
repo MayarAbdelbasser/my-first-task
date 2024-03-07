@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="This is my 5th assignment" />
+    <title>Task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+    <form action="" method="post">
+      <label for="user-name" class="block">Name</label>
+      <input
+        type="text"
+        id="user-name"
+        placeholder="Enter your name here"
+        name="user-name"
+        class="block width-100"
+      />
+      <label for="email" class="block">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your  email here"
+        class="block width-100"
+      />
+      <label for="age" class="block">Age</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="Enter your age here"
+        class="block width-100"
+      />
+      <label for="statue" class="block">Which option best describes you?</label>
+      <select name="statue" id="statue" class="width-100">
+        <option value="student">student</option>
+        <option value="university student">university student</option>
+        <option value="graduate">graduate</option>
+      </select>
+
+      <!-- start radio options -->
+      <label class="block">Would you recommend Eraasoft to a friend?</label>
+      <div>
+        <input type="radio" id="yes-recommand" name="recommand" value="yes" />
+        <label for="yes-recommand" name="recommand" value="yes">Yes</label>
+      </div>
+      <div>
+        <input type="radio" id="no-recommand" name="recommand" value="no" />
+        <label for="no-recommand" name="recommand" value="no">NO</label>
+      </div>
+      <div>
+        <input type="radio" id="maybe-recommand" name="recommand" value="yes" />
+        <label for="maybe-recommand" name="recommand" value="maybe"
+          >Maybe</label
+        >
+      </div>
+
+      <!-- Start checkbox options -->
+      <label class="block">Languages, Frameworks and tools known</label>
+      <div>
+        <input type="checkbox" id="html" name="known" value="HTML" />
+        <label for="html">HTML</label>
+      </div>
+      <div>
+        <input type="checkbox" id="css" name="known" value="css" />
+        <label for="css">CSS</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="JavaScript"
+          name="known"
+          value="JavaScript"
+        />
+        <label for="JavaScript">JavaScript</label>
+      </div>
+      <div>
+        <input type="checkbox" id="JQuery" name="known" value="JQuery" />
+        <label for="JQuery">JQuery</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Sass" name="known" value="Sass" />
+        <label for="Sass">Sass</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Bootstrap" name="known" value="Bootstrap" />
+        <label for="Bootstrap">Bootstrap</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="React" name="known" value="React" />
+        <label for="React">React</label>
+      </div>
+
+      <div>
+        <input
+          type="checkbox"
+          id="React-Router"
+          name="known"
+          value="React-Router"
+        />
+        <label for="React-Router">React Router</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Redux" name="known" value="Redux" />
+        <label for="Redux">Redux</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Git" name="known" value="Git" />
+        <label for="Git">Git</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="Figma" name="known" value="Figma" />
+        <label for="Figma">Figma</label>
+      </div>
+
+      <!-- start textarea -->
+      <label for="textarea" class="block">Any comments or suggestions</label>
+      <textarea
+        id="textarea"
+        placeholder="Enter your comment here"
+        class="block width-100"
+      ></textarea>
+      <input type="submit" value="Submit" class="block btn width-100" />
+    </form>
+  </body>
+</html>
